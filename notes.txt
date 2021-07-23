@@ -1,0 +1,28 @@
+μs: Microsecond one millionth of a second
+ms: Millisecond one thosanth of a second
+
+Results for the extraLargeArray
+insert 865.4639 ms
+append 2.7519 ms
+
+Results for the LargeArray
+insert 8.6782 ms
+append 539.6 μs
+
+Results for mediumArray
+insert 1.1901 ms
+append 292.9 μs
+
+Results for the smallArray
+insert 6.9 μs
+append 6.8 μs
+
+Results for the tinyArray
+insert 1.9 μs
+append 2 μs
+
+So the insert time was signifigantly slower untill it got to smallArray, where is was one microsecond difference.  The final array was where insert was
+actully 1 microsecond faster.  The scale of time drops a lot faster for Insert than it did for append it dropped 800 ms the first around, then 8 ms, 
+then another 1 ms, and then it droped 5 micorsecond.  where as the append was much more stable decent.
+
+link to google doc: https://docs.google.com/document/d/1k40sgTwBFRs14Pm78hioH6kv__D0tNOcXXDMzUl-SYU/edit?usp=sharing
