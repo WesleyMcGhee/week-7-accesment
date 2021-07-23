@@ -1,15 +1,16 @@
 
-function findZero (arr){
-    
-    for (let i in arr){
-      for (let j in arr){
-         let sum = arr[i] + arr[j];
-         if(sum === 0){
-          return  true;
-        }
+const addToZero = (arr) => {
+  if(arr.length < 2){
+    return false;
+  }
+  for (let i = 0; i < arr.length; i++){
+    for (let j = i + 1; j < arr.length; j++){
+      if(arr[i] + arr[j] === 0){
+        return true;
       }
     }
-      
+  }
+  return false;
 }
         
 // O(n^2)
@@ -27,3 +28,5 @@ function findLongestWord(arr){
 }
 
 //O(n)
+
+console.log(addToZero([2, 3, 3, 2]))
