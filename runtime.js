@@ -61,66 +61,66 @@ console.log('Results for the extraLargeArray');
 console.log("insert", resultsInsert.preciseWords);
 console.log("append", resultsAppend.preciseWords);
 
-// Try it with first function
-perf.start();                     // Starts timer
-doublerAppend(largeArray);
-resultsAppend = perf.stop();  // Stops timer and save time results
+// // Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(largeArray);
+// resultsAppend = perf.stop();  // Stops timer and save time results
 
 
-// Try it with second function
-perf.start();
-doublerInsert(largeArray);
-resultsInsert = perf.stop();
+// // Try it with second function
+// perf.start();
+// doublerInsert(largeArray);
+// resultsInsert = perf.stop();
 
 
-console.log('Results for the LargeArray');
-console.log("insert", resultsInsert.preciseWords);
-console.log("append", resultsAppend.preciseWords);
+// console.log('Results for the LargeArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
 
-// Try it with first function
-perf.start();                     // Starts timer
-doublerAppend(mediumArray);
-resultsAppend = perf.stop();  // Stops timer and save time results
-
-
-// Try it with second function
-perf.start();
-doublerInsert(mediumArray);
-resultsInsert = perf.stop();
+// // Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(mediumArray);
+// resultsAppend = perf.stop();  // Stops timer and save time results
 
 
-console.log('Results for mediumArray');
-console.log("insert", resultsInsert.preciseWords);
-console.log("append", resultsAppend.preciseWords);
-
-// Try it with first function
-perf.start();                     // Starts timer
-doublerAppend(smallArray);
-resultsAppend = perf.stop();  // Stops timer and save time results
+// // Try it with second function
+// perf.start();
+// doublerInsert(mediumArray);
+// resultsInsert = perf.stop();
 
 
-// Try it with second function
-perf.start();
-doublerInsert(smallArray);
-resultsInsert = perf.stop();
+// console.log('Results for mediumArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
+
+// // Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(smallArray);
+// resultsAppend = perf.stop();  // Stops timer and save time results
 
 
-console.log('Results for the smallArray');
-console.log("insert", resultsInsert.preciseWords);
-console.log("append", resultsAppend.preciseWords);
-
-// Try it with first function
-perf.start();                     // Starts timer
-doublerAppend(tinyArray);
-resultsAppend = perf.stop();  // Stops timer and save time results
+// // Try it with second function
+// perf.start();
+// doublerInsert(smallArray);
+// resultsInsert = perf.stop();
 
 
-// Try it with second function
-perf.start();
-doublerInsert(tinyArray);
-resultsInsert = perf.stop();
+// console.log('Results for the smallArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);
+
+// // Try it with first function
+// perf.start();                     // Starts timer
+// doublerAppend(tinyArray);
+// resultsAppend = perf.stop();  // Stops timer and save time results
 
 
-console.log('Results for the tinyArray');
-console.log("insert", resultsInsert.preciseWords);
-console.log("append", resultsAppend.preciseWords);
+// // Try it with second function
+// perf.start();
+// doublerInsert(tinyArray);
+// resultsInsert = perf.stop();
+
+
+// console.log('Results for the tinyArray');
+// console.log("insert", resultsInsert.preciseWords);
+// console.log("append", resultsAppend.preciseWords);

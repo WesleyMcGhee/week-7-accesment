@@ -1,15 +1,15 @@
 
 function findZero (arr){
-    let isZero = false;
-      for (let i in arr){
-        for (let j in arr){
-          let sum = arr[i] + arr[j];
-           if(sum === 0){
-            isZero = true;
-          }
+    
+    for (let i in arr){
+      for (let j in arr){
+         let sum = arr[i] + arr[j];
+         if(sum === 0){
+          return  true;
         }
       }
-      return isZero;
+    }
+      
 }
         
 // O(n^2)
